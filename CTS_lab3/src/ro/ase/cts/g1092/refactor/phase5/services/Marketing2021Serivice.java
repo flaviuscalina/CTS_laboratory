@@ -10,5 +10,5 @@ public class Marketing2021Serivice implements MarketingStrategyInterface{
 		return (yearsSinceRegistration > FIDELITY_YEARS_THRESHOLD) ? MAX_FIDELITY_DISCOUNT : (float)yearsSinceRegistration/100; 
 
 	}
-
+//end
 }
