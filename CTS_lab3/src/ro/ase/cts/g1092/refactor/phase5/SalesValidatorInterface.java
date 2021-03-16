@@ -6,7 +6,10 @@ import ro.ase.cts.g1092.refactor.exceptions.InvlaidPriceException;
 
 public interface SalesValidatorInterface {
 
-	public abstract void validatePrice(float initialPrice) throws InvlaidPriceException;
-	public abstract void validateYearsSinceRegistration(int accountAge)throws InvalidYearsSinceRegistrationException;
+	public abstract void validatePrice(float initialPrice) 
+			throws InvlaidPriceException;
+	
+	public abstract void validateYearsSinceRegistration(int accountAge)
+			throws InvalidYearsSinceRegistrationException;
 	
 }
