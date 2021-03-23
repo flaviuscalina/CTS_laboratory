@@ -15,8 +15,21 @@ public class TestSingleton {
 		DbConnection con3=DbConnection.getDbConnection();
 
 		if(con1==con2) {
-			System.out.println("they are referencing the same object");
+			System.out.println("They are referencing the same object");
 		}
+		
+		//having both versions of getDbConnection is not quite ok
+		
+		DbConnection con4=DbConnection.getDbConnection("10.0.0.1:3306", "ctsDB");
+
+		if(con1==con4) {
+			System.out.println("They are referencing the same object");
+		}
+		
+		//you still get the initial connection
+		
+		DbConnection con5=DbConnection.getDbConnection("10.0.0.2:3306", "cts_prod");
+
 		
 	}
 
