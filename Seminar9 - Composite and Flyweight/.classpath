@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Seminar9 - Composite and Flyweight/src"/>
+	<classpathentry kind="output" path="Seminar9 - Composite and Flyweight/out/production/Seminar9 - Composite and Flyweight"/>
+</classpath>
